@@ -6,8 +6,8 @@ public class Exercicio3 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite a velocidade que você passou no radar: ");
-        double velicade = scanner.nextDouble();
-        if(velicade >=80){
+        double velocidade = scanner.nextDouble();
+        if(velocidade >=80){
             System.out.println("Você foi multado por excesso de velocidade. ");
         }else{
             System.out.println("Você está na velocidade permitida. ");
