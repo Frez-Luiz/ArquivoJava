@@ -5,7 +5,19 @@ public class Exercicio4 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite a cor do semáforo (Verde, Amarelo ou Vermelho): ");
-        String cor = scanner.next()
+        System.out.println("Digite a cor do Semáforo: ");
+        String cor = scanner.nextLine();
+        
+        String corMaiuscula = cor.toUpperCase();
+
+        if (corMaiuscula.equals("VERMELHO")) {
+            System.out.println("Pare o carro");
+
+        } else if (corMaiuscula.equals("AMARELO")) {
+            System.out.println("Passe com cuidado, olhe bem o trânsito.");
+
+        } else {
+            System.out.println("Pode passar.");
+        }
     }
 }
